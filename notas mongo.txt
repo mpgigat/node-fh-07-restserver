@@ -1,0 +1,12 @@
+https://mongoosejs.com/docs/index.html
+    npm i mongoose --save
+    npm i mongoose-unique-validator --save
+
+    npm i bcrypt --save
+    npm i underscore --save
+
+
+    atlas CvNgd32uWQ1ih9Mc - admin
+
+    
+mongodb+srv://admin:CvNgd32uWQ1ih9Mc@cluster0.zxyca.mongodb.net/sub-inv
