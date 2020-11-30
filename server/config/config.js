@@ -8,6 +8,7 @@ process.env.NODE_ENV=process.NODE_ENV || 'dev';
 
 let urlDB;
 console.log('esto si???');
+console.log(process.env.MONGO_URI);
 if(process.env.NODE_ENV==='dev'){
     urlDB='mongodb://localhost:27017/cafe';
 }else{
