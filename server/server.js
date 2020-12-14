@@ -1,14 +1,13 @@
 const express = require('express')
-//import express from 'express';
 const mongoose = require('mongoose')
-//import mongoose from 'mongoose';
-const app = express();
-
 require('./config/config');
+
+const app = express();
 
 app.use(express.urlencoded({extended:false}));
 
-app.use(require('./routes/usuario'));
+//configuracion global de rutas
+app.use(require('./routes/index'));
 
 mongoose.set('useCreateIndex', true);
 mongoose.set('useFindAndModify', false);
