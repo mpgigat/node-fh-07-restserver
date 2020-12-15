@@ -6,6 +6,9 @@ const app = express();
 
 app.use(express.urlencoded({extended:false}));
 
+const path=require('path');
+app.use(express.static(path.resolve(__dirname,'../public')));
+
 //configuracion global de rutas
 app.use(require('./routes/index'));
 
